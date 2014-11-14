@@ -1,32 +1,3 @@
-'''
-import xml.etree.ElementTree as ET
-tree = ET.parse('foo.xml')
-root = tree.getroot()
-
-
-for tr in root.findall('/html/body/div/div/div/div/div/table/tbody/tr'):
-  currency = tr.get('data-currency-id')
-  print currency
-  for td in tr.findall('td'):
-    if td.get('class')=='currency_table_buy':
-      print ("Buy: ",td.text)
-    if td.get('class')=='currency_table_sell':
-      print ("Sell: ",td.text)
-
-
-
-table = ET.XML('foo.xml')
-rows = iter(table)
-
-
-headers = [col.text for col in next(rows)]
-print headers
-
-for row in rows:
-    values = [col.text for col in row]
-    print dict(zip(headers, values))
-'''
-
 
 #-*- coding: UTF-8 -*-
 import re
@@ -38,10 +9,13 @@ for f in fil:
   if m: 
     print f
     for w in fil:
-      mn = re.search(r'^<td.+currency_table.+td>$', w, re.M)
+      mn = re.search(r'(<td.+currency_table_)([a-z]+)', w, re.M)
       if mn:
+        s = mn.group(2)
         print w
-
+        if s == "avg":
+          break
+      
 
 fil.close()
 
