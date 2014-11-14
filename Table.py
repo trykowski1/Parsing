@@ -19,6 +19,8 @@ for f in fil:
 
 fil.close()
 
+print "ok"
+
 
 
 
