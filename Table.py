@@ -37,9 +37,10 @@ for f in fil:
   m = re.search(r'^<a.+(EUR|USD|CHF|GBP)\W+a>$', f, re.M)
   if m: 
     print f
-    mn = re.search(r'^<td.+currency_table.+td>$', f, re.M)
-    if mn:
-      print f
+    for w in fil:
+      mn = re.search(r'^<td.+currency_table.+td>$', w, re.M)
+      if mn:
+        print w
 
 
 fil.close()
