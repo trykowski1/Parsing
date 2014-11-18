@@ -2,3 +2,8 @@
 .pydevproject
 .project
 .metadata
+<<<<<<< HEAD
+=======
+.settings
+/README.md
+>>>>>>> develop
