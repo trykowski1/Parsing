@@ -4,7 +4,7 @@ from write_to_file import Write
 import time
 
 
-class Extract:
+class Extract():
   def __init__(self,regxp ):
     #currency_list: EUR, USD, CHF, GBP; values_list: [(Buy, 4,5667),...]
     #self.currency_list = []
@@ -35,7 +35,10 @@ class Extract:
               break
     fil.close()
 
-class Input_read_data:
+class Input_output_data():
+  def __init__(self):
+    self.kantor_data = {}
+    
   def input_data(self):
     address = ["https://internetowykantor.pl/kursy-walut/","http://cinkciarz.pl/kantor/kursy-walut-cinkciarz-pl", 
            "https://liderwalut.pl/kursy-walut" ]  
@@ -48,12 +51,12 @@ class Input_read_data:
     self.cinkciarz = Extract(cinkciarz_regxp)
     self.lider = Extract(lider_regxp)
 
-  def read_data(self):
+  def output_data(self):
     self.to_file.to_file()
     self.kantor.extract()
     self.cinkciarz.extract()
     self.lider.extract()
-    #print kantor.exchange
+    self.kantor_data = self.kantor.exchange
 
 class Create_timer():
   def __init__(self,time, time_handler):
@@ -63,18 +66,14 @@ class Create_timer():
     while True:
       self.time_handler() 
       time.sleep(self.time)
-      
-input_read = Input_read_data()
-input_read.input_data()
-timer = Create_timer(4,input_read.read_data)
+
+    
+input_output = Input_output_data()
+input_output.input_data()
+timer = Create_timer(4,input_output.output_data)
 timer.start()
 
+print input_output.kantor_data
 
-'''
-print kantor.currency_list
-print kantor.values_list
-print cinkciarz.currency_list
-print cinkciarz.values_list
-print lider.currency_list
-print lider.values_list
-'''
+
+
