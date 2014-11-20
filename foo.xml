@@ -11,7 +11,7 @@
 <!--[if gt IE 8]><!--><html xmlns:fb="http://ogp.me/ns/fb#" lang="pl"> <!--<![endif]-->
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-1.newrelic.com","queueTime":0,"licenseKey":"e7d4992baf","agent":"js-agent.newrelic.com/nr-476.min.js","transactionName":"MVNbNxdWC0NWVUELDggZfxYLVBFZWFgaAQwVGE8KAEAWClNTQQMICkU=","applicationID":"3440487","errorBeacon":"bam.nr-data.net","applicationTime":242}</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-1.newrelic.com","queueTime":0,"licenseKey":"e7d4992baf","agent":"js-agent.newrelic.com/nr-476.min.js","transactionName":"MVNbNxdWC0NWVUELDggZfxYLVBFZWFgaAQwVGE8KAEAWClNTQQMICkU=","applicationID":"3440487","errorBeacon":"bam.nr-data.net","applicationTime":292}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="fb:app_id" content="360419430641803">
 <title>Kursy walut - Internetowykantor.pl</title>
@@ -128,13 +128,13 @@ Euro
 </div>
 </div>
 </td>
-<td class="currency_table_buy">4,1988</td>
-<td class="currency_table_sell">4,2288</td>
-<td class="currency_table_avg">4,2138</td>
+<td class="currency_table_buy">4,1995</td>
+<td class="currency_table_sell">4,2295</td>
+<td class="currency_table_avg">4,2145</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[4.21795, 4.21725, 4.21755, 4.2174, 4.21855, 4.21975, 4.22035, 4.22075, 4.2206, 4.22055, 4.2203, 4.22015, 4.22035, 4.2201, 4.21965, 4.21915, 4.21845, 4.2164, 4.2151, 4.2156, 4.21555, 4.215, 4.21375, 4.21315]"> -
+data-peity-data="[4.2206, 4.22055, 4.2203, 4.22015, 4.22035, 4.2201, 4.21965, 4.21915, 4.21845, 4.2164, 4.2151, 4.2156, 4.21555, 4.215, 4.21375, 4.21355, 4.21365, 4.21305, 4.21395, 4.2144, 4.21315, 4.21335, 4.2136, 4.21355]"> -
 </div>
 </div>
 </td>
@@ -156,13 +156,13 @@ Dolar amerykański
 </div>
 </div>
 </td>
-<td class="currency_table_buy">3,3401</td>
-<td class="currency_table_sell">3,3701</td>
-<td class="currency_table_avg">3,3551</td>
+<td class="currency_table_buy">3,3433</td>
+<td class="currency_table_sell">3,3733</td>
+<td class="currency_table_avg">3,3583</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[3.36295, 3.3617, 3.36085, 3.3589, 3.36055, 3.36405, 3.36275, 3.36265, 3.36485, 3.366, 3.3661, 3.36495, 3.364, 3.3637, 3.36315, 3.36385, 3.36465, 3.3657, 3.36765, 3.3666, 3.36385, 3.36135, 3.35945, 3.35685]"> -
+data-peity-data="[3.36485, 3.366, 3.3661, 3.36495, 3.364, 3.3637, 3.36315, 3.36385, 3.36465, 3.3657, 3.36765, 3.3666, 3.36385, 3.36135, 3.35945, 3.3581, 3.3584, 3.3621, 3.3628, 3.35925, 3.3575, 3.35845, 3.36, 3.36045]"> -
 </div>
 </div>
 </td>
@@ -184,13 +184,13 @@ Frank szwajcarski
 </div>
 </div>
 </td>
-<td class="currency_table_buy">3,4980</td>
-<td class="currency_table_sell">3,5380</td>
-<td class="currency_table_avg">3,5080</td>
+<td class="currency_table_buy">3,4952</td>
+<td class="currency_table_sell">3,5352</td>
+<td class="currency_table_avg">3,5052</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[3.5103, 3.50935, 3.51095, 3.5112, 3.5118, 3.5121, 3.51255, 3.51285, 3.51305, 3.5129, 3.5127, 3.51255, 3.51305, 3.5132, 3.51235, 3.51205, 3.51185, 3.51035, 3.50895, 3.5092, 3.50915, 3.50895, 3.5083, 3.50725]"> -
+data-peity-data="[3.51305, 3.5129, 3.5127, 3.51255, 3.51305, 3.5132, 3.51235, 3.51205, 3.51185, 3.51035, 3.50895, 3.5092, 3.50915, 3.50895, 3.5083, 3.50785, 3.5077, 3.5058, 3.5054, 3.50635, 3.50585, 3.50625, 3.50665, 3.50615]"> -
 </div>
 </div>
 </td>
@@ -212,13 +212,13 @@ Funt brytyjski
 </div>
 </div>
 </td>
-<td class="currency_table_buy">5,2601</td>
-<td class="currency_table_sell">5,3001</td>
-<td class="currency_table_avg">5,2801</td>
+<td class="currency_table_buy">5,2521</td>
+<td class="currency_table_sell">5,2921</td>
+<td class="currency_table_avg">5,2721</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[5.2677, 5.2671, 5.26865, 5.26765, 5.26925, 5.27375, 5.27305, 5.27395, 5.27525, 5.27485, 5.2744, 5.27395, 5.27315, 5.27215, 5.2712, 5.26905, 5.2667, 5.2681, 5.274, 5.27505, 5.2737, 5.27545, 5.27465, 5.27455]"> -
+data-peity-data="[5.27525, 5.27485, 5.2744, 5.27395, 5.27315, 5.27215, 5.2712, 5.26905, 5.2667, 5.2681, 5.274, 5.27505, 5.2737, 5.27545, 5.27465, 5.2749, 5.2759, 5.2747, 5.27325, 5.2727, 5.27145, 5.2715, 5.27305, 5.27295]"> -
 </div>
 </div>
 </td>
@@ -267,13 +267,13 @@ Dolar australijski
 </div>
 </div>
 </td>
-<td class="currency_table_buy">2,8779</td>
-<td class="currency_table_sell">2,9079</td>
-<td class="currency_table_avg">2,8929</td>
+<td class="currency_table_buy">2,8827</td>
+<td class="currency_table_sell">2,9127</td>
+<td class="currency_table_avg">2,8977</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[2.9031, 2.8996, 2.89795, 2.89665, 2.89655, 2.89795, 2.8977, 2.8952, 2.8947, 2.89695, 2.8979, 2.8979, 2.8979, 2.8979, 2.8979, 2.8979, 2.89205, 2.8895, 2.8939, 2.89675, 2.8978, 2.89605, 2.8934, 2.89125]"> -
+data-peity-data="[2.8947, 2.89695, 2.8979, 2.8979, 2.8979, 2.8979, 2.8979, 2.8979, 2.89205, 2.8895, 2.8939, 2.89675, 2.8978, 2.89605, 2.8934, 2.8926, 2.8955, 2.8965, 2.8958, 2.8984, 2.8997, 2.899, 2.89845, 2.8977]"> -
 </div>
 </div>
 </td>
@@ -295,13 +295,13 @@ Lew bułgarski
 </div>
 </div>
 </td>
-<td class="currency_table_buy">2,1412</td>
-<td class="currency_table_sell">2,1662</td>
-<td class="currency_table_avg">2,1537</td>
+<td class="currency_table_buy">2,1414</td>
+<td class="currency_table_sell">2,1664</td>
+<td class="currency_table_avg">2,1539</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[2.1564, 2.15595, 2.1563, 2.15615, 2.15695, 2.15755, 2.15725, 2.1575, 2.158, 2.15795, 2.15775, 2.1577, 2.15775, 2.15775, 2.1576, 2.1573, 2.1568, 2.1558, 2.1552, 2.15535, 2.1553, 2.1553, 2.15475, 2.15375]"> -
+data-peity-data="[2.158, 2.15795, 2.15775, 2.1577, 2.15775, 2.15775, 2.1576, 2.1573, 2.1568, 2.1558, 2.1552, 2.15535, 2.1553, 2.1553, 2.15475, 2.154, 2.1542, 2.1543, 2.15425, 2.1545, 2.1541, 2.1541, 2.1545, 2.1545]"> -
 </div>
 </div>
 </td>
@@ -323,13 +323,13 @@ Dolar kanadyjski
 </div>
 </div>
 </td>
-<td class="currency_table_buy">2,9536</td>
-<td class="currency_table_sell">2,9836</td>
-<td class="currency_table_avg">2,9686</td>
+<td class="currency_table_buy">2,9559</td>
+<td class="currency_table_sell">2,9859</td>
+<td class="currency_table_avg">2,9709</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[2.96495, 2.9635, 2.96245, 2.9625, 2.9642, 2.9652, 2.964, 2.9646, 2.9651, 2.9654, 2.9653, 2.9648, 2.96445, 2.96385, 2.96375, 2.9641, 2.96285, 2.96325, 2.9666, 2.9672, 2.9664, 2.96625, 2.9669, 2.9666]"> -
+data-peity-data="[2.9651, 2.9654, 2.9653, 2.9648, 2.96445, 2.96385, 2.96375, 2.9641, 2.96285, 2.96325, 2.9666, 2.9672, 2.9664, 2.96625, 2.9669, 2.96835, 2.9704, 2.97255, 2.97375, 2.9729, 2.97055, 2.97035, 2.9717, 2.97225]"> -
 </div>
 </div>
 </td>
@@ -357,7 +357,7 @@ Korona czeska
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[0.1523, 0.1521, 0.15205, 0.1522, 0.15235, 0.15235, 0.15235, 0.15245, 0.1525, 0.1525, 0.1525, 0.1525, 0.1525, 0.1525, 0.1525, 0.15245, 0.1524, 0.1523, 0.15225, 0.1524, 0.15245, 0.1524, 0.1523, 0.15225]"> -
+data-peity-data="[0.1525, 0.1525, 0.1525, 0.1525, 0.1525, 0.1525, 0.1525, 0.15245, 0.1524, 0.1523, 0.15225, 0.1524, 0.15245, 0.1524, 0.1523, 0.15225, 0.1523, 0.15235, 0.15235, 0.1523, 0.15225, 0.15225, 0.15225, 0.15225]"> -
 </div>
 </div>
 </td>
@@ -379,13 +379,13 @@ Korona duńska
 </div>
 </div>
 </td>
-<td class="currency_table_buy">0,5631</td>
-<td class="currency_table_sell">0,5691</td>
-<td class="currency_table_avg">0,5661</td>
+<td class="currency_table_buy">0,5632</td>
+<td class="currency_table_sell">0,5692</td>
+<td class="currency_table_avg">0,5662</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[0.5666, 0.56655, 0.56665, 0.5666, 0.56675, 0.56685, 0.56685, 0.56695, 0.567, 0.56695, 0.56685, 0.5668, 0.56685, 0.5669, 0.56685, 0.5668, 0.5668, 0.5665, 0.56625, 0.56635, 0.56635, 0.5663, 0.56615, 0.56605]"> -
+data-peity-data="[0.567, 0.56695, 0.56685, 0.5668, 0.56685, 0.5669, 0.56685, 0.5668, 0.5668, 0.5665, 0.56625, 0.56635, 0.56635, 0.5663, 0.56615, 0.5661, 0.5662, 0.56615, 0.56615, 0.5662, 0.5661, 0.5661, 0.5662, 0.56615]"> -
 </div>
 </div>
 </td>
@@ -407,13 +407,13 @@ Dolar hongkoński
 </div>
 </div>
 </td>
-<td class="currency_table_buy">0,4306</td>
-<td class="currency_table_sell">0,4348</td>
-<td class="currency_table_avg">0,4327</td>
+<td class="currency_table_buy">0,4308</td>
+<td class="currency_table_sell">0,4350</td>
+<td class="currency_table_avg">0,4329</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[0.43365, 0.43345, 0.4333, 0.43305, 0.4333, 0.43375, 0.43355, 0.4336, 0.4339, 0.43405, 0.43405, 0.4339, 0.4338, 0.4337, 0.4336, 0.43365, 0.4337, 0.4338, 0.4341, 0.43405, 0.43365, 0.43335, 0.43315, 0.4328]"> -
+data-peity-data="[0.4339, 0.43405, 0.43405, 0.4339, 0.4338, 0.4337, 0.4336, 0.43365, 0.4337, 0.4338, 0.4341, 0.43405, 0.43365, 0.43335, 0.43315, 0.4329, 0.43295, 0.43345, 0.4338, 0.4334, 0.4328, 0.4329, 0.43315, 0.4332]"> -
 </div>
 </div>
 </td>
@@ -435,13 +435,13 @@ Kuna chorwacka
 </div>
 </div>
 </td>
-<td class="currency_table_buy">0,5460</td>
-<td class="currency_table_sell">0,5520</td>
-<td class="currency_table_avg">0,5490</td>
+<td class="currency_table_buy">0,5457</td>
+<td class="currency_table_sell">0,5517</td>
+<td class="currency_table_avg">0,5487</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[0.5494, 0.5493, 0.54935, 0.5493, 0.5495, 0.5497, 0.54965, 0.54965, 0.5497, 0.5497, 0.5497, 0.54965, 0.54965, 0.5497, 0.5497, 0.5496, 0.5494, 0.54915, 0.5491, 0.54925, 0.54915, 0.549, 0.54895, 0.54885]"> -
+data-peity-data="[0.5497, 0.5497, 0.5497, 0.54965, 0.54965, 0.5497, 0.5497, 0.5496, 0.5494, 0.54915, 0.5491, 0.54925, 0.54915, 0.549, 0.54895, 0.54895, 0.5491, 0.549, 0.5489, 0.549, 0.54895, 0.54895, 0.54905, 0.54895]"> -
 </div>
 </div>
 </td>
@@ -463,13 +463,13 @@ Peso meksykańskie
 </div>
 </div>
 </td>
-<td class="currency_table_buy">0,2456</td>
-<td class="currency_table_sell">0,2482</td>
-<td class="currency_table_avg">0,2469</td>
+<td class="currency_table_buy">0,2446</td>
+<td class="currency_table_sell">0,2472</td>
+<td class="currency_table_avg">0,2459</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[0.2472, 0.247, 0.24685, 0.2466, 0.2466, 0.24695, 0.247, 0.24685, 0.2469, 0.24695, 0.247, 0.2469, 0.2468, 0.2468, 0.24675, 0.24675, 0.24675, 0.2469, 0.24725, 0.24735, 0.24735, 0.2472, 0.24695, 0.2468]"> -
+data-peity-data="[0.2469, 0.24695, 0.247, 0.2469, 0.2468, 0.2468, 0.24675, 0.24675, 0.24675, 0.2469, 0.24725, 0.24735, 0.24735, 0.2472, 0.24695, 0.24695, 0.24695, 0.24695, 0.2469, 0.24665, 0.2463, 0.24615, 0.2462, 0.24615]"> -
 </div>
 </div>
 </td>
@@ -491,13 +491,13 @@ Korona norweska
 </div>
 </div>
 </td>
-<td class="currency_table_buy">0,4943</td>
-<td class="currency_table_sell">0,5003</td>
-<td class="currency_table_avg">0,4973</td>
+<td class="currency_table_buy">0,4934</td>
+<td class="currency_table_sell">0,4994</td>
+<td class="currency_table_avg">0,4964</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[0.4958, 0.4952, 0.4952, 0.49535, 0.49545, 0.4956, 0.49545, 0.49515, 0.49465, 0.49475, 0.4952, 0.4951, 0.4952, 0.4954, 0.4955, 0.4954, 0.49525, 0.4949, 0.4955, 0.4965, 0.4964, 0.49615, 0.49615, 0.49665]"> -
+data-peity-data="[0.49465, 0.49475, 0.4952, 0.4951, 0.4952, 0.4954, 0.4955, 0.4954, 0.49525, 0.4949, 0.4955, 0.4965, 0.4964, 0.49615, 0.49615, 0.49675, 0.49705, 0.497, 0.49725, 0.4973, 0.4971, 0.49695, 0.4968, 0.49655]"> -
 </div>
 </div>
 </td>
@@ -519,13 +519,13 @@ Dolar nowozelandzki
 </div>
 </div>
 </td>
-<td class="currency_table_buy">2,6241</td>
-<td class="currency_table_sell">2,6541</td>
-<td class="currency_table_avg">2,6391</td>
+<td class="currency_table_buy">2,6279</td>
+<td class="currency_table_sell">2,6579</td>
+<td class="currency_table_avg">2,6429</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[2.64405, 2.64235, 2.64205, 2.64225, 2.64255, 2.64435, 2.6425, 2.63905, 2.63855, 2.6379, 2.63825, 2.63965, 2.63895, 2.63725, 2.63655, 2.6372, 2.6372, 2.6385, 2.64055, 2.6415, 2.64305, 2.6428, 2.63995, 2.63885]"> -
+data-peity-data="[2.63855, 2.6379, 2.63825, 2.63965, 2.63895, 2.63725, 2.63655, 2.6372, 2.6372, 2.6385, 2.64055, 2.6415, 2.64305, 2.6428, 2.63995, 2.63865, 2.64175, 2.6425, 2.64095, 2.6432, 2.6447, 2.6444, 2.64445, 2.64355]"> -
 </div>
 </div>
 </td>
@@ -547,13 +547,13 @@ Lej rumuński
 </div>
 </div>
 </td>
-<td class="currency_table_buy">0,9428</td>
-<td class="currency_table_sell">0,9548</td>
-<td class="currency_table_avg">0,9488</td>
+<td class="currency_table_buy">0,9424</td>
+<td class="currency_table_sell">0,9544</td>
+<td class="currency_table_avg">0,9484</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[0.94965, 0.9491, 0.94915, 0.94915, 0.9495, 0.94975, 0.94965, 0.94975, 0.9499, 0.94985, 0.94975, 0.9497, 0.9497, 0.9497, 0.9497, 0.9496, 0.9494, 0.9489, 0.9487, 0.94895, 0.9489, 0.94885, 0.94905, 0.94885]"> -
+data-peity-data="[0.9499, 0.94985, 0.94975, 0.9497, 0.9497, 0.9497, 0.9497, 0.9496, 0.9494, 0.9489, 0.9487, 0.94895, 0.9489, 0.94885, 0.94905, 0.94895, 0.9487, 0.9485, 0.9485, 0.9486, 0.94835, 0.9484, 0.94855, 0.9485]"> -
 </div>
 </div>
 </td>
@@ -575,13 +575,13 @@ Rubel rosyjski
 </div>
 </div>
 </td>
-<td class="currency_table_buy">0,0720</td>
-<td class="currency_table_sell">0,0730</td>
-<td class="currency_table_avg">0,0725</td>
+<td class="currency_table_buy">0,0723</td>
+<td class="currency_table_sell">0,0733</td>
+<td class="currency_table_avg">0,0728</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[0.0719, 0.07185, 0.07195, 0.0719, 0.0719, 0.0719, 0.0718, 0.0718, 0.07185, 0.0719, 0.0719, 0.07185, 0.0718, 0.0718, 0.07185, 0.07195, 0.0721, 0.07215, 0.0721, 0.07205, 0.07205, 0.0722, 0.07235, 0.0724]"> -
+data-peity-data="[0.07185, 0.0719, 0.0719, 0.07185, 0.0718, 0.0718, 0.07185, 0.07195, 0.0721, 0.07215, 0.0721, 0.07205, 0.07205, 0.0722, 0.07235, 0.07245, 0.07255, 0.07265, 0.0727, 0.07265, 0.07265, 0.07275, 0.0728, 0.0728]"> -
 </div>
 </div>
 </td>
@@ -603,13 +603,13 @@ Korona szwedzka
 </div>
 </div>
 </td>
-<td class="currency_table_buy">0,4515</td>
-<td class="currency_table_sell">0,4565</td>
-<td class="currency_table_avg">0,4540</td>
+<td class="currency_table_buy">0,4519</td>
+<td class="currency_table_sell">0,4569</td>
+<td class="currency_table_avg">0,4544</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[0.45515, 0.455, 0.455, 0.455, 0.4551, 0.4552, 0.4551, 0.455, 0.45505, 0.45505, 0.45505, 0.455, 0.45505, 0.45505, 0.455, 0.45495, 0.45505, 0.4548, 0.4548, 0.45525, 0.455, 0.45455, 0.4541, 0.45395]"> -
+data-peity-data="[0.45505, 0.45505, 0.45505, 0.455, 0.45505, 0.45505, 0.455, 0.45495, 0.45505, 0.4548, 0.4548, 0.45525, 0.455, 0.45455, 0.4541, 0.45395, 0.45395, 0.4538, 0.45395, 0.45405, 0.45405, 0.4543, 0.4545, 0.45445]"> -
 </div>
 </div>
 </td>
@@ -631,13 +631,13 @@ Dolar singapurski
 </div>
 </div>
 </td>
-<td class="currency_table_buy">2,5677</td>
-<td class="currency_table_sell">2,5947</td>
-<td class="currency_table_avg">2,5812</td>
+<td class="currency_table_buy">2,5680</td>
+<td class="currency_table_sell">2,5950</td>
+<td class="currency_table_avg">2,5815</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[2.5755, 2.5738, 2.57395, 2.57375, 2.5749, 2.57615, 2.5749, 2.57155, 2.5762, 2.5847, 2.58575, 2.58495, 2.58315, 2.5805, 2.578, 2.5779, 2.5798, 2.58215, 2.5852, 2.58645, 2.5856, 2.58355, 2.5814, 2.58065]"> -
+data-peity-data="[2.5762, 2.5847, 2.58575, 2.58495, 2.58315, 2.5805, 2.578, 2.5779, 2.5798, 2.58215, 2.5852, 2.58645, 2.5856, 2.58355, 2.5814, 2.58115, 2.583, 2.58525, 2.586, 2.58485, 2.583, 2.5837, 2.58455, 2.58415]"> -
 </div>
 </div>
 </td>
@@ -659,13 +659,13 @@ Lira turecka
 </div>
 </div>
 </td>
-<td class="currency_table_buy">1,5006</td>
-<td class="currency_table_sell">1,5166</td>
-<td class="currency_table_avg">1,5086</td>
+<td class="currency_table_buy">1,5046</td>
+<td class="currency_table_sell">1,5206</td>
+<td class="currency_table_avg">1,5126</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[1.50285, 1.50185, 1.50255, 1.5023, 1.50395, 1.5065, 1.506, 1.50565, 1.50595, 1.50585, 1.5053, 1.50475, 1.5045, 1.5038, 1.50315, 1.5029, 1.5023, 1.50315, 1.50485, 1.50495, 1.5044, 1.5057, 1.5073, 1.5078]"> -
+data-peity-data="[1.50595, 1.50585, 1.5053, 1.50475, 1.5045, 1.5038, 1.50315, 1.5029, 1.5023, 1.50315, 1.50485, 1.50495, 1.5044, 1.5057, 1.5073, 1.50815, 1.5102, 1.5122, 1.5129, 1.5125, 1.51195, 1.5124, 1.51305, 1.5131]"> -
 </div>
 </div>
 </td>
@@ -687,13 +687,13 @@ Rand południowoafrykański
 </div>
 </div>
 </td>
-<td class="currency_table_buy">0,3047</td>
-<td class="currency_table_sell">0,3081</td>
-<td class="currency_table_avg">0,3064</td>
+<td class="currency_table_buy">0,3046</td>
+<td class="currency_table_sell">0,3080</td>
+<td class="currency_table_avg">0,3063</td>
 <td class="currency_table_chart">
 <div class="peity_chart_container">
 <div class="peity-data-holder peity-line"
-data-peity-data="[0.3038, 0.30375, 0.30385, 0.30395, 0.3043, 0.3043, 0.30395, 0.30415, 0.3043, 0.3043, 0.3042, 0.30405, 0.30395, 0.30375, 0.3036, 0.30385, 0.30395, 0.3043, 0.305, 0.30515, 0.30535, 0.3057, 0.3059, 0.30615]"> -
+data-peity-data="[0.3043, 0.3043, 0.3042, 0.30405, 0.30395, 0.30375, 0.3036, 0.30385, 0.30395, 0.3043, 0.305, 0.30515, 0.30535, 0.3057, 0.3059, 0.3061, 0.30645, 0.3067, 0.30675, 0.3068, 0.30655, 0.30635, 0.30645, 0.3065]"> -
 </div>
 </div>
 </td>
@@ -788,30 +788,30 @@ Ocena <span itemprop="name">Internetowykantor.pl</span> wg niezależnego serwisu
 </div>
 </div>
 </div>
-<div class="szybki_kontakt">
+<div class="szybki_kontakt szybki_kontakt_inactive">
 <div class="ir button">Szybki kontakt</div>
 <div class="box">
 <ul class="reset">
 <li class="infolinia">
-<span class="wrap">
+<span class="wrap" title="Ta forma kontaktu jest dostępna wyłącznie w&nbsp;godzinach 08:00-20:00">
 <span class="typ">Infolinia</span>
 <span class="wartosc">+48 61 250 45 65</span>
 </span>
 </li>
 <li class="livechat">
-<a class="wrap" href="#" onclick="LC_API.show_full_view();return false;">
+<span class="wrap" title="Ta forma kontaktu jest dostępna wyłącznie w&nbsp;godzinach 08:00-20:00">
 <span class="typ">LiveChat</span>
 <span class="wartosc">Rozpocznij LiveChat</span>
-</a>
+</span>
 </li>
 <li class="email">
 <a class="wrap" href="mailto:biuro@internetowykantor.pl">
-<span class="typ">E-Mail</span>
+<span class="typ">E-mail</span>
 <span class="wartosc">biuro@internetowykantor.pl</span>
 </a>
 </li>
 </ul>
-<div id="godziny_pracy">Nasi konsultanci pracują<br> w&nbsp;godzinach <strong> 08:00-20:00</strong></div>
+<div id="godziny_pracy">Nasi konsultanci pracują<br> w&nbsp;godzinach <strong>08:00-20:00</strong></div>
 </div>
 </div>
 <!-- End of content section -->
@@ -1002,138 +1002,138 @@ var TEXT_DIRECTION = 'ltr';
 <body id="type-b">
 <div id="container">
 <div id="header">
-<div id="select_langs" class="dd">
-<div class="ddTitle" id="choose_lang_title">
-<span class="arrow" id="choose_lang_arrow"></span>
-<span id="choose_lang_titletext" class="ddTitleText">
-<span class="icon-flag icon-flag-pol">&nbsp;</span>
-<span class="ddTitleText">Polski</span>
-</span>
-</div>
-<div class="ddChild noBorderTop" id="choose_lang_child">
-<a class="selected" href="/kantor/kursy-walut-cinkciarz-pl">
-<span class="icon-flag icon-flag-pol">&nbsp;</span>
-<span class="ddTitleText">Polski</span>
-</a>
-<a class="" href="/eng/our-services/cinkciarz-pl-exchange-rates">
-<span class="icon-flag icon-flag-eng">&nbsp;</span>
-<span class="ddTitleText">English</span>
-</a>
-<a class="" href="/rus/our-services/cinkciarz-pl-exchange-rates">
-<span class="icon-flag icon-flag-rus">&nbsp;</span>
-<span class="ddTitleText">Русский</span>
-</a>
-<a class="" href="/deu/our-services/cinkciarz-pl-exchange-rates">
-<span class="icon-flag icon-flag-deu">&nbsp;</span>
-<span class="ddTitleText">Deutsch</span>
-</a>
-<a class="" href="/bul/our-services/cinkciarz-pl-exchange-rates">
-<span class="icon-flag icon-flag-bul">&nbsp;</span>
-<span class="ddTitleText">Български</span>
-</a>
-<a class="" href="/rum/our-services/cinkciarz-pl-exchange-rates">
-<span class="icon-flag icon-flag-rum">&nbsp;</span>
-<span class="ddTitleText">Român</span>
-</a>
-<a class="" href="/ukr/our-services/cinkciarz-pl-exchange-rates">
-<span class="icon-flag icon-flag-ukr">&nbsp;</span>
-<span class="ddTitleText">Український</span>
-</a>
-<a class="" href="/ita/our-services/cinkciarz-pl-exchange-rates">
-<span class="icon-flag icon-flag-ita">&nbsp;</span>
-<span class="ddTitleText">Italiano</span>
-</a>
-</div>
-</div>
-<script type="text/javascript">
-jQuery('document').ready(function(){
-var clickEvent = 'ontouchstart' in document.documentElement ? 'touchstart' : 'click';
-var child = jQuery('#choose_lang_child');
-var title = jQuery('#choose_lang_title');
-jQuery('html').bind(clickEvent, function() {
-if (jQuery('#choose_lang_child').is(':visible')) {
-child.hide();
-}
-});
-jQuery('#choose_lang_title, #choose_lang_child').bind(clickEvent, function(event) {
-event.stopPropagation();
-});
-jQuery('#choose_lang_title').on(clickEvent, function() {
-if (child.is(':visible')) {
-child.hide();
-} else {
-child.show();
-}
-})
-return;
-})
-</script><div class="searchBox" id="searchBox">
-<div class="ico" onclick="">
-<span>&nbsp;</span>
-</div>
-<div class="input">
-<form action="/articles/search" method="post" id="searchBoxForm">
-<fieldset>
-<input class="text" type="text" name="data[Search][value]"/>
-<a href="#" onclick="jQuery('#searchBoxForm').submit()"><span>&nbsp;</span></a>
-<input class="submit" type="submit" value="Szukaj"/>
-</fieldset>
-</form>
-</div>
-<script type="text/javascript">
-var searchBoxVisible = false;
-var searchBoxTimer = false;
-var searchBoxInputFocus = false;
-function searchBoxHide() {
-searchBoxTimer = setTimeout(function() {
-if (searchBoxVisible) {
-jQuery('.searchBox .input').fadeOut(function() {
-searchBoxVisible = false;
-});				
-}				
-}, 500);			
-}
-jQuery('#searchBoxForm').submit(function() {
-if (jQuery('#searchBox .input .text').val().length == 0) {
-return false;
-}
-});
-jQuery('document').ready(function() {
-jQuery('#searchBox .text').attr('autocomplete', 'off');
-});	
-jQuery('.searchBox .text').click(function() {
-searchBoxInputFocus = true;
-});
-jQuery('.searchBox .text').blur(function() {
-searchBoxInputFocus = false;
-searchBoxHide();
-});
-jQuery('.searchBox .ico').click(function() {
-clearTimeout(searchBoxTimer);
-if (!searchBoxVisible) {
-searchBoxVisible = true;
-searchBoxInputFocus = true;
-jQuery('.searchBox .input').fadeIn(function() {
-jQuery('#searchBox .text').focus(); 
-jQuery('#searchBox .text').click(); 
-});				
-} else {
-searchBoxVisible = false;
-searchBoxInputFocus = false;
-jQuery('.searchBox .input').fadeOut();
-searchBoxHide(); 				
-}
-});
-jQuery('.searchBox').mousemove(function() {
-clearTimeout(searchBoxTimer);	
-});
-jQuery('.searchBox').mouseleave(function() {
-if (searchBoxInputFocus) {
-return;
-}
-searchBoxHide();
-});
-</script>
+<div id="select_langs" class="dd">
+<div class="ddTitle" id="choose_lang_title">
+<span class="arrow" id="choose_lang_arrow"></span>
+<span id="choose_lang_titletext" class="ddTitleText">
+<span class="icon-flag icon-flag-pol">&nbsp;</span>
+<span class="ddTitleText">Polski</span>
+</span>
+</div>
+<div class="ddChild noBorderTop" id="choose_lang_child">
+<a class="selected" href="/kantor/kursy-walut-cinkciarz-pl">
+<span class="icon-flag icon-flag-pol">&nbsp;</span>
+<span class="ddTitleText">Polski</span>
+</a>
+<a class="" href="/eng/our-services/cinkciarz-pl-exchange-rates">
+<span class="icon-flag icon-flag-eng">&nbsp;</span>
+<span class="ddTitleText">English</span>
+</a>
+<a class="" href="/rus/our-services/cinkciarz-pl-exchange-rates">
+<span class="icon-flag icon-flag-rus">&nbsp;</span>
+<span class="ddTitleText">Русский</span>
+</a>
+<a class="" href="/deu/our-services/cinkciarz-pl-exchange-rates">
+<span class="icon-flag icon-flag-deu">&nbsp;</span>
+<span class="ddTitleText">Deutsch</span>
+</a>
+<a class="" href="/bul/our-services/cinkciarz-pl-exchange-rates">
+<span class="icon-flag icon-flag-bul">&nbsp;</span>
+<span class="ddTitleText">Български</span>
+</a>
+<a class="" href="/rum/our-services/cinkciarz-pl-exchange-rates">
+<span class="icon-flag icon-flag-rum">&nbsp;</span>
+<span class="ddTitleText">Român</span>
+</a>
+<a class="" href="/ukr/our-services/cinkciarz-pl-exchange-rates">
+<span class="icon-flag icon-flag-ukr">&nbsp;</span>
+<span class="ddTitleText">Український</span>
+</a>
+<a class="" href="/ita/our-services/cinkciarz-pl-exchange-rates">
+<span class="icon-flag icon-flag-ita">&nbsp;</span>
+<span class="ddTitleText">Italiano</span>
+</a>
+</div>
+</div>
+<script type="text/javascript">
+jQuery('document').ready(function(){
+var clickEvent = 'ontouchstart' in document.documentElement ? 'touchstart' : 'click';
+var child = jQuery('#choose_lang_child');
+var title = jQuery('#choose_lang_title');
+jQuery('html').bind(clickEvent, function() {
+if (jQuery('#choose_lang_child').is(':visible')) {
+child.hide();
+}
+});
+jQuery('#choose_lang_title, #choose_lang_child').bind(clickEvent, function(event) {
+event.stopPropagation();
+});
+jQuery('#choose_lang_title').on(clickEvent, function() {
+if (child.is(':visible')) {
+child.hide();
+} else {
+child.show();
+}
+})
+return;
+})
+</script><div class="searchBox" id="searchBox">
+<div class="ico" onclick="">
+<span>&nbsp;</span>
+</div>
+<div class="input">
+<form action="/articles/search" method="post" id="searchBoxForm">
+<fieldset>
+<input class="text" type="text" name="data[Search][value]"/>
+<a href="#" onclick="jQuery('#searchBoxForm').submit()"><span>&nbsp;</span></a>
+<input class="submit" type="submit" value="Szukaj"/>
+</fieldset>
+</form>
+</div>
+<script type="text/javascript">
+var searchBoxVisible = false;
+var searchBoxTimer = false;
+var searchBoxInputFocus = false;
+function searchBoxHide() {
+searchBoxTimer = setTimeout(function() {
+if (searchBoxVisible) {
+jQuery('.searchBox .input').fadeOut(function() {
+searchBoxVisible = false;
+});				
+}				
+}, 500);			
+}
+jQuery('#searchBoxForm').submit(function() {
+if (jQuery('#searchBox .input .text').val().length == 0) {
+return false;
+}
+});
+jQuery('document').ready(function() {
+jQuery('#searchBox .text').attr('autocomplete', 'off');
+});	
+jQuery('.searchBox .text').click(function() {
+searchBoxInputFocus = true;
+});
+jQuery('.searchBox .text').blur(function() {
+searchBoxInputFocus = false;
+searchBoxHide();
+});
+jQuery('.searchBox .ico').click(function() {
+clearTimeout(searchBoxTimer);
+if (!searchBoxVisible) {
+searchBoxVisible = true;
+searchBoxInputFocus = true;
+jQuery('.searchBox .input').fadeIn(function() {
+jQuery('#searchBox .text').focus(); 
+jQuery('#searchBox .text').click(); 
+});				
+} else {
+searchBoxVisible = false;
+searchBoxInputFocus = false;
+jQuery('.searchBox .input').fadeOut();
+searchBoxHide(); 				
+}
+});
+jQuery('.searchBox').mousemove(function() {
+clearTimeout(searchBoxTimer);	
+});
+jQuery('.searchBox').mouseleave(function() {
+if (searchBoxInputFocus) {
+return;
+}
+searchBoxHide();
+});
+</script>
 </div>                <h1>
 <a href="/">Cinkciarz.pl | Pierwszy kantor wymiany walut on-line</a>
 </h1>
@@ -1149,24 +1149,24 @@ searchBoxHide();
 <h1>Kantor</h1><div id="page_container">
 <div id="page_content">
 <div id="page_left">
-<ul class="subpages"><li><a href="/kantor/o-kantorze">O kantorze</a></li><li class="active border color">Kursy walut Cinkciarz.pl</li><li><a href="/kantor/kursy-walut-nbp">Kursy walut NBP</a></li><li><a href="/kantor/kalkulator-walutowy">Kalkulator walutowy</a></li><li class="collapsible_menu"><a href="#">Obsługa przelewów<span class="plusminus plus">&nbsp;</span></a><ul class="subpages2"><li><a href="/kantor/obsluga-przelewow/koszt-realizacji-transakcji">Koszt realizacji transakcji</a>
-</li><li><a href="/kantor/obsluga-przelewow/nasze-konta-bankowe">Nasze konta bankowe</a>
-</li><li><a href="/kantor/obsluga-przelewow/czas-realizacji-transakcji">Czas realizacji transakcji</a>
-</li></ul></li><li class="collapsible_menu"><a href="#">Sposoby wymiany walut<span class="plusminus plus">&nbsp;</span></a><ul class="subpages2"><li><a href="/kantor/sposoby-wymiany-walut/transakcje-z-rachunku-bankowego">Transakcje z rachunku bankowego</a>
-</li><li><a href="/kantor/sposoby-wymiany-walut/transakcje-z-portfela-walutowego">Transakcje z portfela walutowego</a>
-</li><li><a href="/kantor/sposoby-wymiany-walut/transakcje-spolecznosciowe">Transakcje społecznościowe</a>
-</li><li><a href="/kantor/sposoby-wymiany-walut/porownanie-modeli-transakcyjnych">Porównanie modeli transakcyjnych</a>
-</li></ul></li><li class="collapsible_menu"><a href="#">Narzędzia<span class="plusminus plus">&nbsp;</span></a><ul class="subpages2"><li><a href="/kantor/narzedzia/stale-zlecenia">Stałe zlecenia</a>
-</li><li><a href="/kantor/narzedzia/stale-zlecenie-z-rabatem">Stałe zlecenie z rabatem</a>
-</li><li><a href="/kantor/narzedzia/karty-walutowe">Karty walutowe</a>
-</li><li><a href="/kantor/narzedzia/alerty-walutowe">Alerty walutowe</a>
-</li><li><a href="/kantor/narzedzia/polecenie-zaplaty">Polecenie zapłaty</a>
-</li><li><a href="/kantor/narzedzia/wyplata-w-bankomacie">Wypłata w bankomacie</a>
-</li><li><a href="/kantor/narzedzia/powiadomienia-sms">Powiadomienia SMS</a>
-</li><li><a href="/kantor/narzedzia/automatyczne-uzupelnianie-przelewu">Automatyczne uzupełnianie przelewu</a>
-</li><li><a href="/kantor/narzedzia/widget-na-strone-www">Widget na stronę WWW</a>
-</li><li><a href="/kantor/narzedzia/smart-tv-1">Smart TV</a>
-</li><li><a href="/kantor/narzedzia/cinkciarz-pl-for-google-glass">Cinkciarz.pl for Google Glass™</a>
+<ul class="subpages"><li><a href="/kantor/o-kantorze">O kantorze</a></li><li class="active border color">Kursy walut Cinkciarz.pl</li><li><a href="/kantor/kursy-walut-nbp">Kursy walut NBP</a></li><li><a href="/kantor/kalkulator-walutowy">Kalkulator walutowy</a></li><li class="collapsible_menu"><a href="#">Obsługa przelewów<span class="plusminus plus">&nbsp;</span></a><ul class="subpages2"><li><a href="/kantor/obsluga-przelewow/koszt-realizacji-transakcji">Koszt realizacji transakcji</a>
+</li><li><a href="/kantor/obsluga-przelewow/nasze-konta-bankowe">Nasze konta bankowe</a>
+</li><li><a href="/kantor/obsluga-przelewow/czas-realizacji-transakcji">Czas realizacji transakcji</a>
+</li></ul></li><li class="collapsible_menu"><a href="#">Sposoby wymiany walut<span class="plusminus plus">&nbsp;</span></a><ul class="subpages2"><li><a href="/kantor/sposoby-wymiany-walut/transakcje-z-rachunku-bankowego">Transakcje z rachunku bankowego</a>
+</li><li><a href="/kantor/sposoby-wymiany-walut/transakcje-z-portfela-walutowego">Transakcje z portfela walutowego</a>
+</li><li><a href="/kantor/sposoby-wymiany-walut/transakcje-spolecznosciowe">Transakcje społecznościowe</a>
+</li><li><a href="/kantor/sposoby-wymiany-walut/porownanie-modeli-transakcyjnych">Porównanie modeli transakcyjnych</a>
+</li></ul></li><li class="collapsible_menu"><a href="#">Narzędzia<span class="plusminus plus">&nbsp;</span></a><ul class="subpages2"><li><a href="/kantor/narzedzia/stale-zlecenia">Stałe zlecenia</a>
+</li><li><a href="/kantor/narzedzia/stale-zlecenie-z-rabatem">Stałe zlecenie z rabatem</a>
+</li><li><a href="/kantor/narzedzia/karty-walutowe">Karty walutowe</a>
+</li><li><a href="/kantor/narzedzia/alerty-walutowe">Alerty walutowe</a>
+</li><li><a href="/kantor/narzedzia/polecenie-zaplaty">Polecenie zapłaty</a>
+</li><li><a href="/kantor/narzedzia/wyplata-w-bankomacie">Wypłata w bankomacie</a>
+</li><li><a href="/kantor/narzedzia/powiadomienia-sms">Powiadomienia SMS</a>
+</li><li><a href="/kantor/narzedzia/automatyczne-uzupelnianie-przelewu">Automatyczne uzupełnianie przelewu</a>
+</li><li><a href="/kantor/narzedzia/widget-na-strone-www">Widget na stronę WWW</a>
+</li><li><a href="/kantor/narzedzia/smart-tv-1">Smart TV</a>
+</li><li><a href="/kantor/narzedzia/cinkciarz-pl-for-google-glass">Cinkciarz.pl for Google Glass™</a>
 </li></ul></li><li><a href="/kantor/aplikacje-mobilne">Aplikacje mobilne</a></li><li><a href="/kantor/poradniki-wideo">Poradniki wideo</a></li><li><a href="/kantor/regulamin">Regulamin</a></li><li><a href="/kantor/polityka-prywatnosci">Polityka prywatności</a></li><li><a href="/kantor/polityka-cookies">Polityka cookies</a></li></ul><script type="text/javascript" src="/js/left_menu.js"></script>        </div>
 <div id="page_text">
 <h1 class="subpage">Kursy walut Cinkciarz.pl</h1>
@@ -1175,226 +1175,226 @@ searchBoxHide();
 <input type="hidden" id="refreshRate" />
 <div id="liveRateDiv">Kurs na żywo <span id="changeLiveRate" class="noActiveLiveRate">włącz</span></div>
 <div id="currenciesRates">
-<table summary="Kursy Cinkciarz.pl" class="currencies wide big">
-<thead>
-<tr>
-<th>&nbsp;</th>
-<td colspan="2" style="text-align: center; font-weight: bold">Dla 1,00 XXX<span
-class="red">**</span></td>
-<td colspan="2" style="text-align: center; font-weight: bold">Dla 50 000,00 XXX<span
-class="red">**</span></td>
-<th>&nbsp;</th>
-</tr>
-<tr>
-<td style="text-align: center; font-weight: bold">Waluta</td>
-<td style="text-align: center; font-weight: bold">Kupno</td>
-<td style="text-align: center; font-weight: bold">Sprzedaż</td>
-<td style="text-align: center; font-weight: bold">Kupno</td>
-<td style="text-align: center; font-weight: bold">Sprzedaż</td>
-<td style="text-align: center; font-weight: bold">Czas</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span title="Dolar australijski"><a href="/kantor/kursy-walut-cinkciarz-pl/aud">AUDPLN</a></span></td>
-<td class="cur_up">2,8792</td>
-<td class="cur_up">2,9054</td>
-<td class="cur_up">2,8849</td>
-<td class="cur_up">2,8997</td>
-<td>15:56:47</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Lew bułgarski"><a href="/kantor/kursy-walut-cinkciarz-pl/bgn">BGNPLN</a></span></td>
-<td class="cur_down">2,1233</td>
-<td class="cur_down">2,1862</td>
-<td class="cur_down">2,1309</td>
-<td class="cur_down">2,1786</td>
-<td>15:56:45</td>
-</tr>
-<tr>
-<td><span title="Dolar kanadyjski"><a href="/kantor/kursy-walut-cinkciarz-pl/cad">CADPLN</a></span></td>
-<td class="cur_down">2,9536</td>
-<td class="cur_down">2,9803</td>
-<td class="cur_down">2,9593</td>
-<td class="cur_down">2,9746</td>
-<td>15:56:47</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Frank szwajcarski"><a href="/kantor/kursy-walut-cinkciarz-pl/chf">CHFPLN</a></span></td>
-<td class="cur_down">3,4947</td>
-<td class="cur_down">3,5211</td>
-<td class="cur_down">3,5004</td>
-<td class="cur_down">3,5154</td>
-<td>15:56:47</td>
-</tr>
-<tr>
-<td><span title="Juan chiński"><a href="/kantor/kursy-walut-cinkciarz-pl/cny">CNYPLN</a></span></td>
-<td class="cur_down">0,5304</td>
-<td class="cur_down">0,5655</td>
-<td class="cur_down">0,5380</td>
-<td class="cur_down">0,5579</td>
-<td>15:56:47</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Korona czeska"><a href="/kantor/kursy-walut-cinkciarz-pl/czk">CZKPLN</a></span></td>
-<td class="cur_up">0,1496</td>
-<td class="cur_up">0,1550</td>
-<td class="cur_up">0,1507</td>
-<td class="cur_up">0,1539</td>
-<td>15:56:15</td>
-</tr>
-<tr>
-<td><span title="Korona duńska"><a href="/kantor/kursy-walut-cinkciarz-pl/dkk">DKKPLN</a></span></td>
-<td class="cur_up">0,5629</td>
-<td class="cur_up">0,5693</td>
-<td class="cur_up">0,5629</td>
-<td class="cur_up">0,5693</td>
-<td>15:56:47</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Euro"><a href="/kantor/kursy-walut-cinkciarz-pl/eur">EURPLN</a></span></td>
-<td class="cur_up">4,2007</td>
-<td class="cur_up">4,2267</td>
-<td class="cur_up">4,2064</td>
-<td class="cur_up">4,2210</td>
-<td>15:56:47</td>
-</tr>
-<tr>
-<td><span title="Funt brytyjski"><a href="/kantor/kursy-walut-cinkciarz-pl/gbp">GBPPLN</a></span></td>
-<td class="cur_down">5,2642</td>
-<td class="cur_down">5,2920</td>
-<td class="cur_down">5,2699</td>
-<td class="cur_down">5,2863</td>
-<td>15:56:47</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Dolar hongkoński"><a href="/kantor/kursy-walut-cinkciarz-pl/hkd">HKDPLN</a></span></td>
-<td class="cur_down">0,4151</td>
-<td class="cur_down">0,4501</td>
-<td class="cur_down">0,4227</td>
-<td class="cur_down">0,4425</td>
-<td>15:56:47</td>
-</tr>
-<tr>
-<td><span title="Kuna chorwacka"><a href="/kantor/kursy-walut-cinkciarz-pl/hrk">HRKPLN</a></span></td>
-<td class="cur_down">0,5292</td>
-<td class="cur_down">0,5688</td>
-<td class="cur_down">0,5368</td>
-<td class="cur_down">0,5612</td>
-<td>15:56:45</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Forint węgierski"><a href="/kantor/kursy-walut-cinkciarz-pl/huf">HUFPLN</a></span></td>
-<td class="cur_down">1,3753</td>
-<td class="cur_down">1,3910</td>
-<td class="cur_down">1,3753</td>
-<td class="cur_down">1,3910</td>
-<td>15:56:47</td>
-</tr>
-<tr>
-<td><span title="Jen japoński"><a href="/kantor/kursy-walut-cinkciarz-pl/jpy">JPYPLN</a></span></td>
-<td class="cur_down">2,8389</td>
-<td class="cur_down">2,8477</td>
-<td class="cur_down">2,8389</td>
-<td class="cur_down">2,8477</td>
-<td>15:56:47</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Lit litewski"><a href="/kantor/kursy-walut-cinkciarz-pl/ltl">LTLPLN</a></span></td>
-<td class="cur_down">1,2143</td>
-<td class="cur_down">1,2260</td>
-<td class="cur_down">1,2166</td>
-<td class="cur_down">1,2237</td>
-<td>15:56:47</td>
-</tr>
-<tr>
-<td><span title="Peso meksykańskie"><a href="/kantor/kursy-walut-cinkciarz-pl/mxn">MXNPLN</a></span></td>
-<td class="cur_up">0,2294</td>
-<td class="cur_up">0,2644</td>
-<td class="cur_up">0,2370</td>
-<td class="cur_up">0,2568</td>
-<td>15:56:47</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Korona norweska"><a href="/kantor/kursy-walut-cinkciarz-pl/nok">NOKPLN</a></span></td>
-<td class="cur_up">0,4942</td>
-<td class="cur_up">0,5005</td>
-<td class="cur_up">0,4942</td>
-<td class="cur_up">0,5005</td>
-<td>15:56:47</td>
-</tr>
-<tr>
-<td><span title="Dolar nowozelandzki"><a href="/kantor/kursy-walut-cinkciarz-pl/nzd">NZDPLN</a></span></td>
-<td class="cur_down">2,6203</td>
-<td class="cur_down">2,6574</td>
-<td class="cur_down">2,6279</td>
-<td class="cur_down">2,6498</td>
-<td>15:56:47</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Lej rumuński"><a href="/kantor/kursy-walut-cinkciarz-pl/ron">RONPLN</a></span></td>
-<td class="cur_up">0,9298</td>
-<td class="cur_up">0,9676</td>
-<td class="cur_up">0,9374</td>
-<td class="cur_up">0,9600</td>
-<td>15:56:47</td>
-</tr>
-<tr>
-<td><span title="Rubel rosyjski"><a href="/kantor/kursy-walut-cinkciarz-pl/rub">RUBPLN</a></span></td>
-<td class="cur_up">0,0708</td>
-<td class="cur_up">0,0741</td>
-<td class="cur_up">0,0708</td>
-<td class="cur_up">0,0741</td>
-<td>15:52:04</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Korona szwedzka"><a href="/kantor/kursy-walut-cinkciarz-pl/sek">SEKPLN</a></span></td>
-<td class="cur_up">0,4520</td>
-<td class="cur_up">0,4564</td>
-<td class="cur_up">0,4523</td>
-<td class="cur_up">0,4561</td>
-<td>15:56:47</td>
-</tr>
-<tr>
-<td><span title="Dolar singapurski"><a href="/kantor/kursy-walut-cinkciarz-pl/sgd">SGDPLN</a></span></td>
-<td class="cur_up">2,5627</td>
-<td class="cur_up">2,5992</td>
-<td class="cur_up">2,5703</td>
-<td class="cur_up">2,5916</td>
-<td>15:56:47</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Lira turecka"><a href="/kantor/kursy-walut-cinkciarz-pl/try">TRYPLN</a></span></td>
-<td class="cur_down">1,5010</td>
-<td class="cur_down">1,5180</td>
-<td class="cur_down">1,5014</td>
-<td class="cur_down">1,5176</td>
-<td>15:56:47</td>
-</tr>
-<tr>
-<td><span title="Dolar amerykański"><a href="/kantor/kursy-walut-cinkciarz-pl/usd">USDPLN</a></span></td>
-<td class="cur_down">3,3431</td>
-<td class="cur_down">3,3687</td>
-<td class="cur_down">3,3488</td>
-<td class="cur_down">3,3630</td>
-<td>15:56:47</td>
-</tr>
-<tr class="alt-row">
-<td><span title="Rand południowoafrykański"><a href="/kantor/kursy-walut-cinkciarz-pl/zar">ZARPLN</a></span></td>
-<td class="cur_down">0,2889</td>
-<td class="cur_down">0,3238</td>
-<td class="cur_down">0,2965</td>
-<td class="cur_down">0,3162</td>
-<td>15:56:49</td>
-</tr>
-</tbody>
-</table>
-<br/>
-<span class="red">*</span> Kurs za 100 jednostek waluty.<br/>
-<span class="red">**</span> XXX oznacza symbol wybranej waluty.<p>
-Kursy walut zależne są od wymienianej kwoty.<br/>
-<strong>Jeśli chcesz poznać dokładny kurs skorzystaj z <a href="/kantor/kalkulator-walutowy">kalkulatora walutowego</a> lub <a href="https://fx.cinkciarz.pl/users/add">zarejestruj się</a> w serwisie.</strong><br/>
-</p>
+<table summary="Kursy Cinkciarz.pl" class="currencies wide big">
+<thead>
+<tr>
+<th>&nbsp;</th>
+<td colspan="2" style="text-align: center; font-weight: bold">Dla 1,00 XXX<span
+class="red">**</span></td>
+<td colspan="2" style="text-align: center; font-weight: bold">Dla 50 000,00 XXX<span
+class="red">**</span></td>
+<th>&nbsp;</th>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold">Waluta</td>
+<td style="text-align: center; font-weight: bold">Kupno</td>
+<td style="text-align: center; font-weight: bold">Sprzedaż</td>
+<td style="text-align: center; font-weight: bold">Kupno</td>
+<td style="text-align: center; font-weight: bold">Sprzedaż</td>
+<td style="text-align: center; font-weight: bold">Czas</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span title="Dolar australijski"><a href="/kantor/kursy-walut-cinkciarz-pl/aud">AUDPLN</a></span></td>
+<td class="cur_up">2,8829</td>
+<td class="cur_up">2,9116</td>
+<td class="cur_up">2,8886</td>
+<td class="cur_up">2,9059</td>
+<td>23:24:46</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Lew bułgarski"><a href="/kantor/kursy-walut-cinkciarz-pl/bgn">BGNPLN</a></span></td>
+<td class="cur_down">2,1220</td>
+<td class="cur_down">2,1857</td>
+<td class="cur_down">2,1296</td>
+<td class="cur_down">2,1781</td>
+<td>23:25:40</td>
+</tr>
+<tr>
+<td><span title="Dolar kanadyjski"><a href="/kantor/kursy-walut-cinkciarz-pl/cad">CADPLN</a></span></td>
+<td class="cur_down">2,9573</td>
+<td class="cur_down">2,9853</td>
+<td class="cur_down">2,9630</td>
+<td class="cur_down">2,9796</td>
+<td>23:24:48</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Frank szwajcarski"><a href="/kantor/kursy-walut-cinkciarz-pl/chf">CHFPLN</a></span></td>
+<td class="cur_down">3,4914</td>
+<td class="cur_down">3,5193</td>
+<td class="cur_down">3,4971</td>
+<td class="cur_down">3,5136</td>
+<td>23:25:40</td>
+</tr>
+<tr>
+<td><span title="Juan chiński"><a href="/kantor/kursy-walut-cinkciarz-pl/cny">CNYPLN</a></span></td>
+<td class="cur_up">0,5304</td>
+<td class="cur_up">0,5666</td>
+<td class="cur_up">0,5380</td>
+<td class="cur_up">0,5590</td>
+<td>23:23:45</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Korona czeska"><a href="/kantor/kursy-walut-cinkciarz-pl/czk">CZKPLN</a></span></td>
+<td class="cur_up">0,1495</td>
+<td class="cur_up">0,1551</td>
+<td class="cur_up">0,1506</td>
+<td class="cur_up">0,1540</td>
+<td>23:24:48</td>
+</tr>
+<tr>
+<td><span title="Korona duńska"><a href="/kantor/kursy-walut-cinkciarz-pl/dkk">DKKPLN</a></span></td>
+<td class="cur_up">0,5628</td>
+<td class="cur_up">0,5696</td>
+<td class="cur_up">0,5628</td>
+<td class="cur_up">0,5696</td>
+<td>23:24:33</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Euro"><a href="/kantor/kursy-walut-cinkciarz-pl/eur">EURPLN</a></span></td>
+<td class="cur_down">4,1988</td>
+<td class="cur_down">4,2279</td>
+<td class="cur_down">4,2045</td>
+<td class="cur_down">4,2222</td>
+<td>23:25:29</td>
+</tr>
+<tr>
+<td><span title="Funt brytyjski"><a href="/kantor/kursy-walut-cinkciarz-pl/gbp">GBPPLN</a></span></td>
+<td class="cur_up">5,2572</td>
+<td class="cur_up">5,2880</td>
+<td class="cur_up">5,2629</td>
+<td class="cur_up">5,2823</td>
+<td>23:24:48</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Dolar hongkoński"><a href="/kantor/kursy-walut-cinkciarz-pl/hkd">HKDPLN</a></span></td>
+<td class="cur_up">0,4154</td>
+<td class="cur_up">0,4507</td>
+<td class="cur_up">0,4230</td>
+<td class="cur_up">0,4431</td>
+<td>23:24:48</td>
+</tr>
+<tr>
+<td><span title="Kuna chorwacka"><a href="/kantor/kursy-walut-cinkciarz-pl/hrk">HRKPLN</a></span></td>
+<td class="cur_down">0,5310</td>
+<td class="cur_down">0,5668</td>
+<td class="cur_down">0,5386</td>
+<td class="cur_down">0,5592</td>
+<td>23:25:35</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Forint węgierski"><a href="/kantor/kursy-walut-cinkciarz-pl/huf">HUFPLN</a></span></td>
+<td class="cur_down">1,3751</td>
+<td class="cur_down">1,3920</td>
+<td class="cur_down">1,3751</td>
+<td class="cur_down">1,3920</td>
+<td>23:24:48</td>
+</tr>
+<tr>
+<td><span title="Jen japoński"><a href="/kantor/kursy-walut-cinkciarz-pl/jpy">JPYPLN</a></span></td>
+<td class="cur_down">2,8353</td>
+<td class="cur_down">2,8461</td>
+<td class="cur_down">2,8353</td>
+<td class="cur_down">2,8461</td>
+<td>23:25:33</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Lit litewski"><a href="/kantor/kursy-walut-cinkciarz-pl/ltl">LTLPLN</a></span></td>
+<td class="cur_up">1,2124</td>
+<td class="cur_up">1,2283</td>
+<td class="cur_up">1,2147</td>
+<td class="cur_up">1,2260</td>
+<td>23:24:48</td>
+</tr>
+<tr>
+<td><span title="Peso meksykańskie"><a href="/kantor/kursy-walut-cinkciarz-pl/mxn">MXNPLN</a></span></td>
+<td class="cur_up">0,2283</td>
+<td class="cur_up">0,2635</td>
+<td class="cur_up">0,2359</td>
+<td class="cur_up">0,2559</td>
+<td>23:23:47</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Korona norweska"><a href="/kantor/kursy-walut-cinkciarz-pl/nok">NOKPLN</a></span></td>
+<td class="cur_up">0,4930</td>
+<td class="cur_up">0,4999</td>
+<td class="cur_up">0,4930</td>
+<td class="cur_up">0,4999</td>
+<td>23:23:47</td>
+</tr>
+<tr>
+<td><span title="Dolar nowozelandzki"><a href="/kantor/kursy-walut-cinkciarz-pl/nzd">NZDPLN</a></span></td>
+<td class="cur_up">2,6241</td>
+<td class="cur_up">2,6627</td>
+<td class="cur_up">2,6317</td>
+<td class="cur_up">2,6551</td>
+<td>23:25:06</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Lej rumuński"><a href="/kantor/kursy-walut-cinkciarz-pl/ron">RONPLN</a></span></td>
+<td class="cur_up">0,9303</td>
+<td class="cur_up">0,9668</td>
+<td class="cur_up">0,9379</td>
+<td class="cur_up">0,9592</td>
+<td>23:24:56</td>
+</tr>
+<tr>
+<td><span title="Rubel rosyjski"><a href="/kantor/kursy-walut-cinkciarz-pl/rub">RUBPLN</a></span></td>
+<td class="cur_down">0,0708</td>
+<td class="cur_down">0,0740</td>
+<td class="cur_down">0,0708</td>
+<td class="cur_down">0,0740</td>
+<td>23:21:57</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Korona szwedzka"><a href="/kantor/kursy-walut-cinkciarz-pl/sek">SEKPLN</a></span></td>
+<td class="cur_up">0,4521</td>
+<td class="cur_up">0,4568</td>
+<td class="cur_up">0,4524</td>
+<td class="cur_up">0,4565</td>
+<td>23:24:48</td>
+</tr>
+<tr>
+<td><span title="Dolar singapurski"><a href="/kantor/kursy-walut-cinkciarz-pl/sgd">SGDPLN</a></span></td>
+<td class="cur_up">2,5650</td>
+<td class="cur_up">2,6031</td>
+<td class="cur_up">2,5726</td>
+<td class="cur_up">2,5955</td>
+<td>23:25:35</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Lira turecka"><a href="/kantor/kursy-walut-cinkciarz-pl/try">TRYPLN</a></span></td>
+<td class="cur_down">1,5042</td>
+<td class="cur_down">1,5222</td>
+<td class="cur_down">1,5046</td>
+<td class="cur_down">1,5218</td>
+<td>23:25:19</td>
+</tr>
+<tr>
+<td><span title="Dolar amerykański"><a href="/kantor/kursy-walut-cinkciarz-pl/usd">USDPLN</a></span></td>
+<td class="cur_down">3,3440</td>
+<td class="cur_down">3,3723</td>
+<td class="cur_down">3,3497</td>
+<td class="cur_down">3,3666</td>
+<td>23:25:37</td>
+</tr>
+<tr class="alt-row">
+<td><span title="Rand południowoafrykański"><a href="/kantor/kursy-walut-cinkciarz-pl/zar">ZARPLN</a></span></td>
+<td class="cur_up">0,2886</td>
+<td class="cur_up">0,3242</td>
+<td class="cur_up">0,2962</td>
+<td class="cur_up">0,3166</td>
+<td>23:24:56</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<span class="red">*</span> Kurs za 100 jednostek waluty.<br/>
+<span class="red">**</span> XXX oznacza symbol wybranej waluty.<p>
+Kursy walut zależne są od wymienianej kwoty.<br/>
+<strong>Jeśli chcesz poznać dokładny kurs skorzystaj z <a href="/kantor/kalkulator-walutowy">kalkulatora walutowego</a> lub <a href="https://fx.cinkciarz.pl/users/add">zarejestruj się</a> w serwisie.</strong><br/>
+</p>
 </div>
 <script type="text/javascript">
 function reloadRates(force) {
@@ -1495,7 +1495,7 @@ reloadRates(true);
 <div id="footer_info">
 <p style="clear:both">Wszystkie znaki towarowe są własnością ich prawowitych właścicieli i są umieszczone jedynie w celach informacyjnych. Wszelkie prawa zastrzeżone Cinkciarz.pl  2014 r.</p>
 <div class="hreview-aggregate">
-<p><span class="rating"><span class="average">9.4</span>/<span class="best">10</span> - ocena naszego kantoru na podstawie <span class="votes">202 272</span> opinii, wg serwisu Opineo.pl.  </span></p>
+<p><span class="rating"><span class="average">9.4</span>/<span class="best">10</span> - ocena naszego kantoru na podstawie <span class="votes">202 527</span> opinii, wg serwisu Opineo.pl.  </span></p>
 </div>
 </div>
 </div>
@@ -1538,73 +1538,73 @@ liveChatMoveDown();
 <!DOCTYPE html>
 <html lang="pl-pl">
 <head>
-<meta charset="utf-8">
-<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">  
-<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8">
-<!--<title>Internetowy kantor online - Liderwalut.pl</title>-->
-<title>Kursy wymiany walut online - Liderwalut.pl</title>
-<meta name="description" content="Aktualne kursy walut dostępnych w kantorze online. Odświeżanie kursów walut co 15 sekund, czytelne wykresy – zapraszamy do zapoznania się z naszą ofertą.">
-<meta name="keywords" content="">
-<meta name="robots" content="index,follow">            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel='canonical' href='https://liderwalut.pl/kursy-walut' />
-<meta property="og:title" content="Kursy wymiany walut online - Liderwalut.pl">
-<meta property="og:description" content="Aktualne kursy walut dostępnych w kantorze online. Odświeżanie kursów walut co 15 sekund, czytelne wykresy – zapraszamy do zapoznania się z naszą ofertą.">
-<meta property="og:type" content="company">
-<meta property="og:url" content="https://liderwalut.pl/kursy-walut">
-<meta property="og:image" content="https://liderwalut.pl/assets_web/img/logo-liderwalut.jpg">
-<meta property="og:site_name" content="Kantor internetowy - wymiana walut online - Liderwalut.pl">
-<!-- Basic Styles -->
+<meta charset="utf-8">
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">  
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8">
+<!--<title>Internetowy kantor online - Liderwalut.pl</title>-->
+<title>Kursy wymiany walut online - Liderwalut.pl</title>
+<meta name="description" content="Aktualne kursy walut dostępnych w kantorze online. Odświeżanie kursów walut co 15 sekund, czytelne wykresy – zapraszamy do zapoznania się z naszą ofertą.">
+<meta name="keywords" content="">
+<meta name="robots" content="index,follow">            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel='canonical' href='https://liderwalut.pl/kursy-walut' />
+<meta property="og:title" content="Kursy wymiany walut online - Liderwalut.pl">
+<meta property="og:description" content="Aktualne kursy walut dostępnych w kantorze online. Odświeżanie kursów walut co 15 sekund, czytelne wykresy – zapraszamy do zapoznania się z naszą ofertą.">
+<meta property="og:type" content="company">
+<meta property="og:url" content="https://liderwalut.pl/kursy-walut">
+<meta property="og:image" content="https://liderwalut.pl/assets_web/img/logo-liderwalut.jpg">
+<meta property="og:site_name" content="Kantor internetowy - wymiana walut online - Liderwalut.pl">
+<!-- Basic Styles -->
 <link media="all" type="text/css" rel="stylesheet" href="https://liderwalut.pl/assets_web/css/bootstrap.css">
-<!-- Demo purpose only: goes with demo.js, you can delete this css when designing your own WebApp -->
+<!-- Demo purpose only: goes with demo.js, you can delete this css when designing your own WebApp -->
 <link media="all" type="text/css" rel="stylesheet" href="https://liderwalut.pl/assets_web/css/style.css">
 <link media="all" type="text/css" rel="stylesheet" href="https://liderwalut.pl/assets_web/js/plugin/st-accordion/css/style.css">
-<!-- Owl Carousel Assets -->
+<!-- Owl Carousel Assets -->
 <link media="all" type="text/css" rel="stylesheet" href="https://liderwalut.pl/assets_web/js/plugin/owl.carousel/owl-carousel/owl.carousel.css">
 <link media="all" type="text/css" rel="stylesheet" href="https://liderwalut.pl/assets_web/js/plugin/owl.carousel/owl-carousel/owl.theme.css">
 <link media="all" type="text/css" rel="stylesheet" href="https://liderwalut.pl/assets_web/js/plugin/UItoTop/css/ui.totop.css">
 <link media="all" type="text/css" rel="stylesheet" href="https://liderwalut.pl/assets_web/fonts/opensans_light_polish/stylesheet.css">
 <link media="all" type="text/css" rel="stylesheet" href="https://liderwalut.pl/assets_web/fonts/opensans_regular_polish/stylesheet.css">
 <link media="all" type="text/css" rel="stylesheet" href="https://liderwalut.pl/assets_web/fonts/opensans_bold_polish/stylesheet.css">
-<!-- GOOGLE FONT -->
-<!--
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700&subset=latin,latin-ext">
--->
-<!-- Your GOOGLE ANALYTICS CODE Below -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-36263638-1', 'liderwalut.pl');
-ga('send', 'pageview');
-</script>
-<script type="text/javascript">
-window.___gcfg = {lang: 'pl'};
-(function() {
-var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-po.src = 'https://apis.google.com/js/plusone.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-})();
-</script>
-<!-- Facebook Conversion Code for FBcon1 -->
-<script>(function() {
-var _fbq = window._fbq || (window._fbq = []);
-if (!_fbq.loaded) {
-var fbds = document.createElement('script');
-fbds.async = true;
-fbds.src = '//connect.facebook.net/en_US/fbds.js';
-var s = document.getElementsByTagName('script')[0];
-s.parentNode.insertBefore(fbds, s);
-_fbq.loaded = true;
-}
-})();
-window._fbq = window._fbq || [];
-window._fbq.push(['track', '6018607403576', {'value':'0.00','currency':'PLN'}]);
-</script>
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6018607403576&amp;cd[value]=0.00&amp;cd[currency]=PLN&amp;noscript=1" /></noscript>
+<!-- GOOGLE FONT -->
+<!--
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700&subset=latin,latin-ext">
+-->
+<!-- Your GOOGLE ANALYTICS CODE Below -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-36263638-1', 'liderwalut.pl');
+ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+window.___gcfg = {lang: 'pl'};
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+po.src = 'https://apis.google.com/js/plusone.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
+<!-- Facebook Conversion Code for FBcon1 -->
+<script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6018607403576', {'value':'0.00','currency':'PLN'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6018607403576&amp;cd[value]=0.00&amp;cd[currency]=PLN&amp;noscript=1" /></noscript>
 </head>
 <body class="">
 <!-- possible classes: minified, fixed-ribbon, fixed-header, fixed-width-->
@@ -1646,203 +1646,203 @@ Załóż konto</a></li>
 <!-- END NAVIGATION -->
 <!-- MAIN PANEL -->
 <div id="main"  role="main">
-<div id="content" class="container rates-page">
-<div class="row">
-<div class="col-xs-3">
-<a class="back" href="javascript: history.go(-1)">Powrót</a>
-</div>
-<div class="col-xs-6">
-<h1 class="header-section rates-big">Wykresy i kursy walut</h1>
-</div>
-<div class="col-xs-3">
-<div class="option-select-box">
-<select style="font-family:Arial !important;" class="form-control" name="currency-list">
-<option value="EUR" selected>EUR</option>
-<option value="CHF">CHF</option>
-<option value="USD">USD</option>
-<option value="GBP">GBP</option>
-<option value="NOK">NOK</option>
-<option value="SEK">SEK</option>
-<option value="DKK">DKK</option>
-<option value="CAD">CAD</option>
-<option value="AUD">AUD</option>
-<option value="RUB">RUB</option>
-<option value="JPY">JPY</option>                                              
-<option value="CNY">CNY</option>
-<option value="CZK">CZK</option>
-<option value="TRY">TRY</option>                                              
-<option value="LTL">LTL</option>
-<option value="HUF">HUF</option>
-</select>
-</div>
-</div>
-</div>   
-<div class="row">
-<div class="col-xs-3">
-<table class="table rates-table">
-<thead>
-<tr>
-<th></th>
-<th>Kupno</th>
-<th>Sprzedaż</th>
-</tr>
-</thead>
-<tbody>
-<tr class="EUR">
-<td>EUR</td>
-<td class='bid stay'>4.2020</td>
-<td class='ask stay'>4.2248</td>
-</tr>
-<tr class="CHF">
-<td>CHF</td>
-<td class='bid down'>3.5061</td>
-<td class='ask down'>3.5171</td>
-</tr>
-<tr class="USD">
-<td>USD</td>
-<td class='bid up'>3.3464</td>
-<td class='ask up'>3.3651</td>
-</tr>
-<tr class="GBP">
-<td>GBP</td>
-<td class='bid down'>5.2671</td>
-<td class='ask down'>5.2898</td>
-</tr>
-<tr class="NOK">
-<td>NOK</td>
-<td class='bid down'>0.4950</td>
-<td class='ask down'>0.4985</td>
-</tr>
-<tr class="SEK">
-<td>SEK</td>
-<td class='bid down'>0.4520</td>
-<td class='ask down'>0.4555</td>
-</tr>
-<tr class="DKK">
-<td>DKK</td>
-<td class='bid down'>0.5636</td>
-<td class='ask down'>0.5675</td>
-</tr>
-<tr class="CAD">
-<td>CAD</td>
-<td class='bid down'>2.9548</td>
-<td class='ask down'>2.9768</td>
-</tr>
-<tr class="AUD">
-<td>AUD</td>
-<td class='bid down'>2.8799</td>
-<td class='ask down'>2.9036</td>
-</tr>
-<tr class="RUB">
-<td>RUB</td>
-<td class='bid stay'>0.0713</td>
-<td class='ask stay'>0.0737</td>
-</tr>
-<tr class="JPY">
-<td>JPY</td>
-<td class='bid stay'>0.0279</td>
-<td class='ask stay'>0.0288</td>
-</tr>
-<tr class="CNY">
-<td>CNY</td>
-<td class='bid stay'>0.5307</td>
-<td class='ask stay'>0.5658</td>
-</tr>
-<tr class="CZK">
-<td>CZK</td>
-<td class='bid stay'>0.1506</td>
-<td class='ask stay'>0.1540</td>
-</tr>
-<tr class="TRY">
-<td>TRY</td>
-<td class='bid stay'>1.5031</td>
-<td class='ask stay'>1.5174</td>
-</tr>
-<tr class="LTL">
-<td>LTL</td>
-<td class='bid up'>1.2100</td>
-<td class='ask up'>1.2314</td>
-</tr>
-<tr class="HUF">
-<td>HUF</td>
-<td class='bid down'>0.0138</td>
-<td class='ask down'>0.0139</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="col-xs-9">
-<div class="row chart">
-<div class="col col-xs-4">
-<div class="box shadow-left">
-<h2>Kurs zakupu <span class="currency-bid">EUR</span></h2>
-<span>w serwisie Liderwalut.pl</span>
-<div class="rate rate-bid">
-<span id="rate-bid" class="up">4.1233</span>
-</div>
-</div>
-</div>
-<div class="col col-xs-4">
-<div class="box shadow-center">
-<h2>Kurs sprzedaży <span class="currency-ask">EUR</span></h2>
-<span>w serwisie Liderwalut.pl</span>
-<div class="rate rate-ask">
-<span id="rate-ask" class="down">4.1233</span>
-</div>
-</div>
-</div>
-<div class="col col-xs-4">
-<div class="box shadow-right">
-<h2>Kurs średni <span class="currency-mid">EUR</span></h2>
-<span>w serwisie Liderwalut.pl</span>
-<div class="rate rate-mid">
-<span id="rate-mid" class="stay">4.1233</span>
-</div>
-</div>
-</div>
-</div>
-<div id="chart-container">
-</div>
-<div class="form-inline" id="chart-controls">
-<select class="form-control" name="chart-direction">
-<option value="mid">Średni</option>
-<option value="ask">Sprzedaż</option>
-<option value="bid">Kupno</option>
-</select>
-<select class="form-control" name="chart-duration">
-<option value="5s">5 sekund</option>
-<option value="1m">1 minuta</option>
-<option value="5m">5 minut</option>
-<option value="30m">30 minut</option>
-<option value="24h">24 godziny</option>
-</select>
-<select class="form-control" name="chart-type">
-<option value="simple">Linia</option>
-<option value="ohlc">Bar</option>
-<option value="candlestick">Świece</option>
-</select>
-</div>
-<div>
-<p>
-Prezentowane kursy walut odświeżane są co 15 sekund: Kurs zakupu, Kurs sprzedaży, Kurs średni.<br />
-Dane na wykresach aktualizowane są w odstępach 5-cio minutowych.
-</p>
-<p>
-Tabela kursów kantoru internetowego Liderwalut.pl przedstawia wartości kursów, po jakich możesz w danej chwili zrealizować wymianę waluty. Wymienione są w niej wszystkie waluty obsługiwane przez nasz kantor.
-</p>
-<p>
-Kurs kupna waluty oznacza wartość po jakiej kantor kupuje jedną jednostkę danej waluty. Innymi słowy jest to wartość jaką otrzymasz sprzedając walutę naszym ekantorze.
-</p>
-<p>
-Kurs sprzedaży waluty oznacza cenę po jakiej kantor sprzedaje walutę w przeliczeniu na jednostkę. Czyli jest to kurs po jakim możesz kupić walutę od kantoru Liderwalut.pl.
-</p>
-<p>
-Kurs średni jest to średnia arytmetyczna kursu kupna i sprzedaży.   
-</p>
-</div>
-</div>
-</div>
-</div>
+<div id="content" class="container rates-page">
+<div class="row">
+<div class="col-xs-3">
+<a class="back" href="javascript: history.go(-1)">Powrót</a>
+</div>
+<div class="col-xs-6">
+<h1 class="header-section rates-big">Wykresy i kursy walut</h1>
+</div>
+<div class="col-xs-3">
+<div class="option-select-box">
+<select style="font-family:Arial !important;" class="form-control" name="currency-list">
+<option value="EUR" selected>EUR</option>
+<option value="CHF">CHF</option>
+<option value="USD">USD</option>
+<option value="GBP">GBP</option>
+<option value="NOK">NOK</option>
+<option value="SEK">SEK</option>
+<option value="DKK">DKK</option>
+<option value="CAD">CAD</option>
+<option value="AUD">AUD</option>
+<option value="RUB">RUB</option>
+<option value="JPY">JPY</option>                                              
+<option value="CNY">CNY</option>
+<option value="CZK">CZK</option>
+<option value="TRY">TRY</option>                                              
+<option value="LTL">LTL</option>
+<option value="HUF">HUF</option>
+</select>
+</div>
+</div>
+</div>   
+<div class="row">
+<div class="col-xs-3">
+<table class="table rates-table">
+<thead>
+<tr>
+<th></th>
+<th>Kupno</th>
+<th>Sprzedaż</th>
+</tr>
+</thead>
+<tbody>
+<tr class="EUR">
+<td>EUR</td>
+<td class='bid stay'>4.2023</td>
+<td class='ask stay'>4.2239</td>
+</tr>
+<tr class="CHF">
+<td>CHF</td>
+<td class='bid stay'>3.5052</td>
+<td class='ask stay'>3.5139</td>
+</tr>
+<tr class="USD">
+<td>USD</td>
+<td class='bid stay'>3.3505</td>
+<td class='ask stay'>3.3672</td>
+</tr>
+<tr class="GBP">
+<td>GBP</td>
+<td class='bid stay'>5.2598</td>
+<td class='ask stay'>5.2809</td>
+</tr>
+<tr class="NOK">
+<td>NOK</td>
+<td class='bid stay'>0.4940</td>
+<td class='ask stay'>0.4975</td>
+</tr>
+<tr class="SEK">
+<td>SEK</td>
+<td class='bid stay'>0.4523</td>
+<td class='ask stay'>0.4557</td>
+</tr>
+<tr class="DKK">
+<td>DKK</td>
+<td class='bid stay'>0.5636</td>
+<td class='ask stay'>0.5675</td>
+</tr>
+<tr class="CAD">
+<td>CAD</td>
+<td class='bid stay'>2.9569</td>
+<td class='ask stay'>2.9789</td>
+</tr>
+<tr class="AUD">
+<td>AUD</td>
+<td class='bid stay'>2.8838</td>
+<td class='ask stay'>2.9076</td>
+</tr>
+<tr class="RUB">
+<td>RUB</td>
+<td class='bid stay'>0.0712</td>
+<td class='ask stay'>0.0736</td>
+</tr>
+<tr class="JPY">
+<td>JPY</td>
+<td class='bid stay'>0.0278</td>
+<td class='ask stay'>0.0288</td>
+</tr>
+<tr class="CNY">
+<td>CNY</td>
+<td class='bid stay'>0.5309</td>
+<td class='ask stay'>0.5660</td>
+</tr>
+<tr class="CZK">
+<td>CZK</td>
+<td class='bid down'>0.1506</td>
+<td class='ask down'>0.1540</td>
+</tr>
+<tr class="TRY">
+<td>TRY</td>
+<td class='bid stay'>1.5062</td>
+<td class='ask stay'>1.5206</td>
+</tr>
+<tr class="LTL">
+<td>LTL</td>
+<td class='bid stay'>1.2100</td>
+<td class='ask stay'>1.2314</td>
+</tr>
+<tr class="HUF">
+<td>HUF</td>
+<td class='bid stay'>0.0138</td>
+<td class='ask stay'>0.0139</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-xs-9">
+<div class="row chart">
+<div class="col col-xs-4">
+<div class="box shadow-left">
+<h2>Kurs zakupu <span class="currency-bid">EUR</span></h2>
+<span>w serwisie Liderwalut.pl</span>
+<div class="rate rate-bid">
+<span id="rate-bid" class="up">4.1233</span>
+</div>
+</div>
+</div>
+<div class="col col-xs-4">
+<div class="box shadow-center">
+<h2>Kurs sprzedaży <span class="currency-ask">EUR</span></h2>
+<span>w serwisie Liderwalut.pl</span>
+<div class="rate rate-ask">
+<span id="rate-ask" class="down">4.1233</span>
+</div>
+</div>
+</div>
+<div class="col col-xs-4">
+<div class="box shadow-right">
+<h2>Kurs średni <span class="currency-mid">EUR</span></h2>
+<span>w serwisie Liderwalut.pl</span>
+<div class="rate rate-mid">
+<span id="rate-mid" class="stay">4.1233</span>
+</div>
+</div>
+</div>
+</div>
+<div id="chart-container">
+</div>
+<div class="form-inline" id="chart-controls">
+<select class="form-control" name="chart-direction">
+<option value="mid">Średni</option>
+<option value="ask">Sprzedaż</option>
+<option value="bid">Kupno</option>
+</select>
+<select class="form-control" name="chart-duration">
+<option value="5s">5 sekund</option>
+<option value="1m">1 minuta</option>
+<option value="5m">5 minut</option>
+<option value="30m">30 minut</option>
+<option value="24h">24 godziny</option>
+</select>
+<select class="form-control" name="chart-type">
+<option value="simple">Linia</option>
+<option value="ohlc">Bar</option>
+<option value="candlestick">Świece</option>
+</select>
+</div>
+<div>
+<p>
+Prezentowane kursy walut odświeżane są co 15 sekund: Kurs zakupu, Kurs sprzedaży, Kurs średni.<br />
+Dane na wykresach aktualizowane są w odstępach 5-cio minutowych.
+</p>
+<p>
+Tabela kursów kantoru internetowego Liderwalut.pl przedstawia wartości kursów, po jakich możesz w danej chwili zrealizować wymianę waluty. Wymienione są w niej wszystkie waluty obsługiwane przez nasz kantor.
+</p>
+<p>
+Kurs kupna waluty oznacza wartość po jakiej kantor kupuje jedną jednostkę danej waluty. Innymi słowy jest to wartość jaką otrzymasz sprzedając walutę naszym ekantorze.
+</p>
+<p>
+Kurs sprzedaży waluty oznacza cenę po jakiej kantor sprzedaje walutę w przeliczeniu na jednostkę. Czyli jest to kurs po jakim możesz kupić walutę od kantoru Liderwalut.pl.
+</p>
+<p>
+Kurs średni jest to średnia arytmetyczna kursu kupna i sprzedaży.   
+</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 <!-- END MAIN PANEL -->
 <!-- FOOTER -->
